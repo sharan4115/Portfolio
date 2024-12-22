@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&display=swap');
+:root{
+    bluuuu:#1b4765;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Josefin Sans", serif;
+}
+header{
+    background-color: #031827;
+    padding: 20px;
+    color:#fff;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.logo{
+    color: #1186c1;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+header a{
+    text-decoration: none;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul li{
+    margin-right: 20px;
+}
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+}
+header button{
+    padding: 10px 20px;
+    font-family: "Josefin Sans", serif;
+    background-color: #031827;
+    background-color: #031827;
+    border: 2px solid #1186c1;
+    color: #1186c1;
+    border-radius: 5px;
+}
+header ul li a:hover{
+    color: #1186c1;
+    font-weight: bold;
+}
+header button:hover{
+    cursor:pointer;
+    background-color: #1186c1;
+    color: #fff;
+}
+section.hero-section{
+    background-color: #031827;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    padding: 20px 120px 0 200px;
+}
+.hero-section-title{
+    font-size: 45px;
+}
+.hero-section-desc{
+    color:#fff;
+}
+.social-icons{
+    margin: 20px 0;
+}
+.social-icons li{
+    margin-right: 10px;
+}
+ul.social-icons{
+    list-style:none;
+    display: flex;
+}
+.social-icons li > a{
+    text-decoration: none;
+    color: #fff;
+}
+.social-icons li a > i.fa-facebook:hover{
+    color:#1877F2;
+}
+.social-icons li a > i.fa-linkedin:hover{
+    color:#0A66C2;
+}
+.social-icons li a > i.fa-instagram:hover{
+    color:#E4405F;
+}
+.social-icons li a > i.fa-twitter:hover{
+    color:#1DA1F2;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px;
+    cursor:pointer;
+}
+.btn.btn-primary{
+    background-color: #1186c1;
+    font-family:"Josefin Sans", serif;
+}
+.btn.btn-primary:hover{
+    background-color:white;
+    color: black;
+}
+.btn.btn-secondary{
+    background-color:#031827;
+    color:#1186c1;
+    font-family:"Josefin Sans", serif;
+    border: 2px solid #1186c1;
+    
+}
+.btn.btn-secondary:hover{
+    background-color:#1186c1;
+    color: black;
+}
+.hero-section-title > span{
+    color: #1186c1;
+}
