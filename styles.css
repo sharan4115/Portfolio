@@ -11,7 +11,7 @@ body{
     font-family: "Josefin Sans", serif;
 }
 header{
-    background-color: #031827;
+    background-color: #011d31;
     padding: 20px;
     color:#fff;
     display:flex;
@@ -121,5 +121,47 @@ ul.social-icons{
     color: black;
 }
 .hero-section-title > span{
+    color: #1186c1;
+}
+.about-section{
+    background-color:#011d31;
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    padding: 30px 120px;
+    align-items: center;
+}
+.about-section img{
+      width: 350px;
+      height: 350px;
+      border-radius:50%;
+      background-color: #fff;
+      border: 5px solid #1186c1;
+      box-shadow: 3px 5px 20px #1186c1;
+}
+.about-section-desc{
+    margin-left: 100px;
+    max-width: 450px;
+}
+.about-section-desc ul{
+    list-style:none;
+    margin-top:10px;
+    margin-bottom: 15px;
+}
+.about-section h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.about-section-desc li{
+    margin-bottom:14px;
+}
+.about-section-desc li > strong{
+    color:gray;
+}
+.about-section-desc ul li > a{
+    text-decoration: none;
+    color: #fff;
+}
+.about-section-desc ul li > a:hover{
     color: #1186c1;
 }
